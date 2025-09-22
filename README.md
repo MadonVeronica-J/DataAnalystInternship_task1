@@ -14,7 +14,7 @@ Tools : Google Colab / Python(pandas)
 -The dataset is chencked for the duplicated in the ID column and also the entire dataset and no duplicates were found.
 
 ### Standardizing text values:
--Education and Marital_Status columns were checked for unique values. 
+-Education and Marital_Status columns were checked for unique values.  <br> 
 -In Marital_Status column values such as 'YOLO', 'Absurd', and 'Alone' were present which was the standardized to 'Single'.
 
 ### Renaming column headers to be uniform:
@@ -24,6 +24,6 @@ Tools : Google Colab / Python(pandas)
 -Every column had object data type, thus, it was converted to Int64 and datetime respectively.
 
 ### Dropping columns that are not needed for analysis:
--Column id serves no purpose in analysis and thus it is dropped. 
--year_birth column which mentions which year the customer is born is converted to age column so that it would better represent which age group prefers certain item. 
+-Column id serves no purpose in analysis and thus it is dropped.  <br> 
+-year_birth column which mentions which year the customer is born is converted to age column so that it would better represent which age group prefers certain item.  <br>
 -dt_customer column which tells us the day when the customer enrolled is converted to customer_since_days column to find how long the person has been a customer as this would help find the long term trend
