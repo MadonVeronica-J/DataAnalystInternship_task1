@@ -1,8 +1,8 @@
 # DataAnalystInternship_task1
 ## Data Cleaning and Preprocessing
-Dataset used : Customer Personality Analysis
-Source : Kaggle
-Tools : Google Colab / Python(pandas)
+Dataset used : Customer Personality Analysis  
+Source : Kaggle  
+Tools : Google Colab / Python(pandas)  
 
 ### Reading the dataset:
 -The dataset is read using pandas and different columns are saved under single column. Thus the columns were seperated using split function.
